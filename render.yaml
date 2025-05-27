@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: rap-api-express
+    env: node
+    plan: free
+    buildCommand: 'npm install'
+    startCommand: 'node server.js'   # or whatever your entry point file is named
+    autoDeploy: true
+    branch: main
