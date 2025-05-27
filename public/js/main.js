@@ -1,5 +1,5 @@
 document.querySelector('button').addEventListener('click', getName)
-// alert('okay')
+alert('okay')
 async function getName(){
     const rapperName = document.querySelector('input').value
     try{
