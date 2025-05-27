@@ -27,7 +27,7 @@ const rappers = {
 app.get('/', (request, response)=>{
     // got a req on the main file and will send file
     // dirname says, wherever server js is located start looking there
-    response.sendFile(__dirname + '/index.html')
+    response.sendFile(__dirname + '/public/index.html')
 })
 
 // get request for /api
