@@ -10,5 +10,4 @@ async function getName(){
     catch (err) {
         console.error.log(err)
     }
-    document.querySelector('h2').textContent = 
 }
